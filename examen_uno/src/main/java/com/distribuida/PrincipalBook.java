@@ -57,7 +57,7 @@ public class PrincipalBook {
             String _id = req.params(":id");
             servicio.borrarBook(Integer.valueOf(_id));
             if (true){
-                return "Book eliminada con éxito";
+                return "Book eliminada correctamente";
             }else{
                 return "Book no encontrado para eliminar";
             }
